@@ -34,10 +34,13 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="text-xl font-semibold mb-4">Contact Me</h4>
-            <p className="mb-2 cursor-pointer hover:text-blue-500" onClick={()=>{
-                window.open('tel:+919535585524')
-            }}>Phone: +91(953) 558-5524</p>
-            <p>Email: abhishekranjanagoudag@gmail.com</p>
+            <p className="mb-2 cursor-pointer hover:text-blue-500" 
+            > <a  
+            href='tel:+919535585524'
+            >Phone: +91(953) 558-5524</a>
+          </p>
+            <p><a className="mb-2 cursor-pointer hover:text-blue-500" href='mailto:abhishekranjanagoudag@gmail.com'>Email: abhishekranjanagoudag@gmail.com</a>
+            </p>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-white/20 text-center">
