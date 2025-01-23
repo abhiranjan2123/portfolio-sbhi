@@ -4,14 +4,18 @@ const NavBar = () => {
   return (
     <nav className="flex flex-col justify-center items-center md:justify-between m-10">
       <div className="flex flex-col  text-sm font-semibold gap-3 md:flex-row md:items-center">
-        <h1 className="bg-[#D7D5D3] p-2 rounded-2xl">
+        <h1 className="bg-slate-300 p-2 rounded-2xl">
           Abhishekranjanagoudag@gmail.com
         </h1>
 
         <div className="flex gap-4 justify-center">
           <button className="bg-background p-2 w-24 rounded-xl "
           onClick={()=>{
-            navigator.clipboard.writeText("abhishekranjanagoudag@gmail.com")
+            navigator.clipboard.writeText("abhishekranjanagoudag@gmail.com").then(
+              ()=>{
+               alert("Email copied to clipboard")
+              }
+            )
           }}
           >
             <div className="flex gap-1 justify-center ">
@@ -55,7 +59,7 @@ const NavBar = () => {
         </div>
       </div>
       <div>
-        <ul className="flex mt-10 gap-2 cursor-pointer">
+        <ul className="flex mt-10 gap-2 cursor-pointer font-semibold">
           <li>Linked In |</li>
           <li>GitHub</li>
         </ul>

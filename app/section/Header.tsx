@@ -4,7 +4,7 @@ import MyName from '../components/MyName'
 
 const Header = () => {
   return (
-    <section className="bg-maincolor m-1 p-2 rounded-t-xl h-[40rem] rounded-b-[100px] container">
+    <section className="bg-slate-300 m-1.5 p-2 rounded-t-xl  h-[40rem] rounded-b-[100px]" style={{backgroundImage: "url('/svg/noisybg.svg')"}}>
         <NavBar />
         <Avatar />
         <MyName />
