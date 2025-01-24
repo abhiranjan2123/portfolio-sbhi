@@ -8,19 +8,19 @@ const projects = [
   {
     title: "Android Based Smart Vehicle Parking System",
     description: "Smart parking system with real-time monitoring.",
-    image: "https://ik.imagekit.io/5lnqg1qxwh/parking_TJoSP9REkP?updatedAt=1737624490365",
+    image: "https://ik.imagekit.io/5lnqg1qxwh/parkingapp?updatedAt=1737717187075",
     link: "https://github.com/abhiranjan2123/smartparking/tree/main",
   },
   {
     title: "Dry Cleaning Management",
     description: "Management system for dry cleaning businesses.",
-    image: "https://ik.imagekit.io/5lnqg1qxwh/movie_kt5VD_BKb?updatedAt=1737624708781",
+    image: "https://ik.imagekit.io/5lnqg1qxwh/drycleanproject?updatedAt=1737717013224",
     link: "https://drycleaning-application.vercel.app/",
   },
   {
     title: "Paying Guest website",
     description: "Website for PG owners to list their properties and for students to find PGs.",
-    image: "https://ik.imagekit.io/5lnqg1qxwh/pg_d3KovRNQ0?updatedAt=1737624757677",
+    image: "https://ik.imagekit.io/5lnqg1qxwh/image.png?updatedAt=1737717089615",
     link: "https://thecozyluxepg-1.netlify.app",
   },
   {
@@ -35,7 +35,7 @@ const Projects = () => {
   return (
     <section className="py-5  bg-white">
       <div className=" mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
+        <div className="flex  md:flex-row justify-between items-start md:items-center mb-8">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -50,7 +50,7 @@ const Projects = () => {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="px-6 py-3 rounded-full bg-slate-400 container text-black font-semibold hover:bg-black hover:text-white transition-colors duration-300"
+              className="px-6 py-3 rounded-xl bg-black   font-semibold hover:bg-black text-gray-300 transition-colors duration-300"
               onClick={()=>{
                 window.open("https://github.com/abhiranjan2123")
               }}

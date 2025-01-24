@@ -1,5 +1,3 @@
-import Image from "next/image";
-import heroimage from "../../public/heroimage.jpeg";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const AvatarPhoto = () => {

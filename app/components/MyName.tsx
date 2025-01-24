@@ -1,4 +1,5 @@
 import React from "react";
+import ContactDialog from "./ContactMe";
 
 const MyName = () => {
   return (
@@ -10,7 +11,11 @@ const MyName = () => {
       <p className="mt-2 ">Software Engineer</p>
       {/* <p> 1.6+ Years of experience</p> */}
 
-      <button className="bg-black p-5 rounded-3xl text-white mt-5 w-44">
+      <ContactDialog />
+      {/* <button className="bg-black p-5 rounded-3xl text-white mt-5 w-44"
+      
+      
+      >
         <div className="flex gap-3 justify-center ">
           <p className="font-semibold">Hire me</p>
           <svg
@@ -28,7 +33,7 @@ const MyName = () => {
             />
           </svg>
         </div>
-      </button>
+      </button> */}
     </div>
   );
 };
