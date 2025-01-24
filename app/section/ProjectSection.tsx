@@ -9,25 +9,25 @@ const projects = [
     title: "Android Based Smart Vehicle Parking System",
     description: "Smart parking system with real-time monitoring.",
     image: "https://ik.imagekit.io/5lnqg1qxwh/parking_TJoSP9REkP?updatedAt=1737624490365",
-    link: "#",
+    link: "https://github.com/abhiranjan2123/smartparking/tree/main",
   },
   {
-    title: "Movie Collection Web App",
-    description: "App to manage and organize your movie collection with advanced filters and search.",
+    title: "Dry Cleaning Management",
+    description: "Management system for dry cleaning businesses.",
     image: "https://ik.imagekit.io/5lnqg1qxwh/movie_kt5VD_BKb?updatedAt=1737624708781",
-    link: "#",
+    link: "https://drycleaning-application.vercel.app/",
   },
   {
     title: "Paying Guest website",
     description: "Website for PG owners to list their properties and for students to find PGs.",
     image: "https://ik.imagekit.io/5lnqg1qxwh/pg_d3KovRNQ0?updatedAt=1737624757677",
-    link: "#",
+    link: "https://thecozyluxepg-1.netlify.app",
   },
   {
     title: "PotHole Detection System",
     description: "System to detect potholes on roads using IoT and alert the authorities.",
     image: "https://ik.imagekit.io/5lnqg1qxwh/pothole.jpg?updatedAt=1737626102770",
-    link: "#",
+    link: "https://github.com/abhiranjan2123/pothole_detection",
   },
 ]
 
@@ -79,10 +79,10 @@ const Projects = () => {
                   />
 
                   {/* Overlay with description */}
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all duration-300 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100">
+                  <div className="absolute inset-0 bg-black/80 group-hover:bg-black/60 transition-all duration-300 flex flex-col justify-end p-6  group-hover:opacity-100">
                     <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                       <div className="flex items-center gap-2 mb-2">
-                        <div className="w-2 h-2 rounded-full bg-[#0066FF]" />
+                        <div className="w-2 h-2 rounded-full bg-blue-700" />
                         <h3 className="font-semibold text-lg text-white">{project.title}</h3>
                       </div>
                       <p className="text-white/90 text-sm">{project.description}</p>
@@ -91,7 +91,8 @@ const Projects = () => {
 
                   {/* Hover Arrow Button */}
                   <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center transform -translate-y-2 group-hover:translate-y-0">
-                    <ArrowUpRight className="w-5 h-5 text-black" />
+                    
+                    <a href={project.link} target="_blank"><ArrowUpRight className="w-5 h-5 text-black" /></a>
                   </div>
                 </div>
             
