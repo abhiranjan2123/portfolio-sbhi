@@ -56,7 +56,7 @@ export default function CustomContactDialog() {
           <p className="text-center mb-6">How would you like to contact me?</p>
           <div className="flex justify-center space-x-8">
           <a
-              href="tel:+7760199690"
+              href="tel:+917760199690"
               className="hover:opacity-80 transition-opacity"
             >
               <Image src="/svg/call.svg" alt="LinkedIn" width={44} height={44} />
