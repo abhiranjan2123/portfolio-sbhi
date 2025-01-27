@@ -39,7 +39,7 @@ const NavBar = () => {
           </button>
           <button className="bg-background p-2 w-24 rounded-xl ">
             <div className="flex gap-1 justify-center ">
-              <a href="/assets/resume.pdf" download>Resume</a>
+              <a href="/assets/abhishek_resume.pdf" download>Resume</a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

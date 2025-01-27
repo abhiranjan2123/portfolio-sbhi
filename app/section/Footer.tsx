@@ -20,7 +20,7 @@ const Footer = () => {
               <a href="#" className="hover:text-gray-300 transition-colors duration-300">
                 <FaTwitter size={24} />
               </a>
-              <a href="#" className="hover:text-gray-300 transition-colors duration-300">
+              <a href="https://www.linkedin.com/in/abhishekranjanagouda/" target="_blank" className="hover:text-gray-300 transition-colors duration-300">
                 <FaLinkedin size={24} />
               </a>
             </div>
@@ -37,7 +37,7 @@ const Footer = () => {
             <p className="mb-2 cursor-pointer hover:text-blue-500" 
             > <a  
             href='tel:+919535585524'
-            >Phone: +91(953) 558-5524</a>
+            >Phone: +91(953) 558-5524</a> | <a href='tel:+917760199690'>+91(776) 019-9690</a>
           </p>
             <p><a className="mb-2 cursor-pointer hover:text-blue-500" href='mailto:abhishekranjanagoudag@gmail.com'>Email: abhishekranjanagoudag@gmail.com</a>
             </p>
