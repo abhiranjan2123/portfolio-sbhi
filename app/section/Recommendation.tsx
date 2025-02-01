@@ -60,7 +60,7 @@ const Testimonials = () => {
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-5xl font-bold"
           >
-            What My <span className="text-gray-400">Friends & Collegues</span> Say
+            What My <span className="text-gray-400">Friends & Colleagues</span> Say
           </motion.h2>
 
           <div className="hidden md:flex gap-4">
