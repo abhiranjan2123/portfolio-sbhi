@@ -9,7 +9,7 @@ const MyName = () => {
       </h1>
       <p className="mt-1 text-white font-bold">( Abhishek Ranjana Gouda G )</p>
       <p className="mt-2 ">Software Engineer</p>
-      {/* <p> 1.6+ Years of experience</p> */}
+      {/* <p> 2.8 + Years of experience</p> */}
 
       <ContactDialog />
       {/* <button className="bg-black p-5 rounded-3xl text-white mt-5 w-44"
