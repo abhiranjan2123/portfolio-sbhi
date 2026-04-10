@@ -61,6 +61,7 @@ const NavBar = () => {
       <div>
         <ul className="flex mt-10 gap-2 cursor-pointer font-semibold">
           <li><a href=" https://www.linkedin.com/in/abhishekranjanagouda" target="_blank">Linked In |</a></li>
+          <li><a href="https://leetcode.com/u/AbhiRanjan1187/" target="_blank">Leet code |</a></li>
           <li ><a href="https://github.com/abhiranjan2123" target="_blank">GitHub</a></li>
         </ul>
       </div>
