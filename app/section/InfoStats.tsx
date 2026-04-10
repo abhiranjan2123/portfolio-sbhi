@@ -5,8 +5,8 @@ import { useRef, useEffect, useState } from 'react'
 
 const stats = [
   {
-    value: 1,
-    suffix: '.6+',
+    value: 2,
+    suffix: '.8+',
     description: 'Years of experience in the software development.'
   },
   {
